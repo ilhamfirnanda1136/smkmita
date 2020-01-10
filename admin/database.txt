@@ -1,0 +1,7 @@
+1.buat database dengan nama sekolah
+2.dengan table admin fieldnya(NIA,nama,alamat,jenis_kelamin,password)
+3.table jurusan dengan fieldnya(idjurusan,nama_jurusan,penjelasan)
+4.table guru dengan fieldnya(NIG,nama_guru,alamat,bidang,jenis_kelamin,password,total_upload,status)
+5.table siswa dengan fieldnya(NIS,nama_siswa,alamat,kelas,kategori_kelas,jurusan,jenis_kelamin,password,status)
+6.table semester dengan fieldnya(semid,semMulai,semSelesai,semTahun,tipe,semStatus,semKeterangan)
+7.table kelas dengan fieldnya(id_kelas,nama_kelas)
