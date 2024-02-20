@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "ckeditor/ckeditor",
-            "version": "4.11.1",
+            "version": "4.24.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ckeditor/ckeditor-releases.git",
-                "reference": "70e6f8f01c3d7d8f713291984017a6005c4e737a"
+                "url": "https://github.com/ckeditor/ckeditor4-releases.git",
+                "reference": "f51eacdb067fd090c4b076d8290f008d9e400480"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ckeditor/ckeditor-releases/zipball/70e6f8f01c3d7d8f713291984017a6005c4e737a",
-                "reference": "70e6f8f01c3d7d8f713291984017a6005c4e737a",
+                "url": "https://api.github.com/repos/ckeditor/ckeditor4-releases/zipball/f51eacdb067fd090c4b076d8290f008d9e400480",
+                "reference": "f51eacdb067fd090c4b076d8290f008d9e400480",
                 "shasum": ""
             },
             "type": "library",
@@ -30,13 +30,14 @@
             "authors": [
                 {
                     "name": "CKSource",
-                    "homepage": "http://cksource.com"
+                    "homepage": "https://cksource.com"
                 }
             ],
             "description": "JavaScript WYSIWYG web text editor.",
-            "homepage": "http://ckeditor.com",
+            "homepage": "https://ckeditor.com/ckeditor-4/",
             "keywords": [
                 "CKEditor",
+                "ckeditor4",
                 "editor",
                 "fckeditor",
                 "html",
@@ -45,7 +46,13 @@
                 "text",
                 "wysiwyg"
             ],
-            "time": "2018-11-08T18:19:19+00:00"
+            "support": {
+                "forum": "https://stackoverflow.com/tags/ckeditor",
+                "issues": "https://github.com/ckeditor/ckeditor4/issues",
+                "source": "https://github.com/ckeditor/ckeditor4",
+                "wiki": "https://ckeditor.com/docs/ckeditor4/latest/"
+            },
+            "time": "2024-02-07T11:28:48+00:00"
         },
         {
             "name": "moontoast/math",
@@ -352,5 +359,6 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
 }
